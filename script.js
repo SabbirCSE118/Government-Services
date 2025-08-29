@@ -43,8 +43,8 @@ const services = [
         <p class="font-mono text-lg text-blue-700">${svc.number}</p>
         <span class="text-xs text-white bg-green-600 px-2 py-0.5 rounded-full w-fit">${svc.category}</span>
         <div class="mt-auto flex gap-2">
-          <button class="copy flex-1 bg-green-100 text-green-700 py-1 rounded"><i class="fa-solid fa-copy"></i> Copy</button>
-          <button class="call flex-1 bg-blue-100 text-blue-700 py-1 rounded"><i class="fa-solid fa-phone"></i> Call</button>
+          <button class="copy flex-1 bg-green-100 text-green-700 py-1 rounded hover:bg-green-300"><i class="fa-solid fa-copy"></i> Copy</button>
+          <button class="call flex-1 bg-blue-100 text-blue-700 py-1 rounded hover:bg-blue-300"><i class="fa-solid fa-phone"></i> Call</button>
         </div>
       `;
       cardGrid.appendChild(card);
@@ -60,7 +60,7 @@ const services = [
       });
 
       card.querySelector('.call').addEventListener('click', () => {
-        if (coins < 20) { alert("Not enough coins!"); return; }
+        if (coins < 20) { alert("Not enough coins! At least 20 coins are required to make a call."); return; }
         coins -= 20; updateNavbar();
         alert(`Calling ${svc.name} (${svc.number})...`);
         addHistory(svc);
