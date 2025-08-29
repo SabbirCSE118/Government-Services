@@ -1,13 +1,13 @@
 const services = [
-      { name: 'জাতীয় জরুরি সেবা', subtitle: 'National Emergency Service', number: '999', category: 'সার্বজনীন', icon: '/assets/emergency.png' },
-      { name: 'ফায়ার সার্ভিস', subtitle: 'Fire Service', number: '999', category: 'ফায়ার', icon: '/assets/fire-service.png' },
-      { name: 'পুলিশ', subtitle: 'Police', number: '999', category: 'পুলিশ', icon: '/assets/police.png' },
-      { name: 'অ্যাম্বুলেন্স', subtitle: 'Ambulance', number: '1994-999999', category: 'স্বাস্থ্য', icon: '/assets/ambulance.png' },
-      { name: 'নারী ও শিশু সহায়তা', subtitle: 'Women & Child Support', number: '109', category: 'সহায়তা', icon: '/assets/emergency.png' },
-      { name: 'বাংলাদেশ রেলওয়ে', subtitle: 'Bangladesh Railway', number: '163', category: 'পরিবহন', icon: '/assets/bangladesh-railway.png' },
-      { name: 'দুদক', subtitle: 'Anti-Corruption Commission', number: '106', category: 'সরকারি', icon: '/assets/emergency.png' },
-      { name: 'বিদ্যুৎ বিভ্রাট', subtitle: 'Power Outage', number: '16216', category: 'বিদ্যুৎ', icon: '/assets/emergency.png' },
-      { name: 'ব্র্যাক', subtitle: 'BRAC', number: '16445', category: 'এনজিও', icon: '/assets/brac.png' },
+      { name: 'জাতীয় জরুরি সেবা', subtitle: 'National Emergency Service', number: '999', category: 'সার্বজনীন', icon: './assets/emergency.png' },
+      { name: 'ফায়ার সার্ভিস', subtitle: 'Fire Service', number: '999', category: 'ফায়ার', icon: './assets/fire-service.png' },
+      { name: 'পুলিশ', subtitle: 'Police', number: '999', category: 'পুলিশ', icon: './assets/police.png' },
+      { name: 'অ্যাম্বুলেন্স', subtitle: 'Ambulance', number: '1994-999999', category: 'স্বাস্থ্য', icon: './assets/ambulance.png' },
+      { name: 'নারী ও শিশু সহায়তা', subtitle: 'Women & Child Support', number: '109', category: 'সহায়তা', icon: './assets/emergency.png' },
+      { name: 'বাংলাদেশ রেলওয়ে', subtitle: 'Bangladesh Railway', number: '163', category: 'পরিবহন', icon: './assets/bangladesh-railway.png' },
+      { name: 'দুদক', subtitle: 'Anti-Corruption Commission', number: '106', category: 'সরকারি', icon: './assets/emergency.png' },
+      { name: 'বিদ্যুৎ বিভ্রাট', subtitle: 'Power Outage', number: '16216', category: 'বিদ্যুৎ', icon: './assets/emergency.png' },
+      { name: 'ব্র্যাক', subtitle: 'BRAC', number: '16445', category: 'এনজিও', icon: './assets/brac.png' },
     ];
 
     let hearts = 0, coins = 100, copies = 0;
